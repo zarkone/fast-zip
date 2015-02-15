@@ -29,8 +29,7 @@
               :node-dependencies
               [benchmark "1.0.0"]
               :plugins
-              [[lein-npm "0.4.0"]
-               [com.cemerick/austin "0.1.5"]]
+              [[lein-npm "0.4.0"]]
               :aliases
               {"clean-test" ~(clojure.string/split
                               "do test, cljsbuild clean, cljsbuild test"
